@@ -1,0 +1,25 @@
+<a href="/dashboard">&larr; Back</a>
+<div class="admin-title">
+  <h2>View / Edit Recipe</h2>
+
+  <form action="/deleteRecipe/<%= data._id %>?_method=DELETE" method="POST">
+    <input type="submit" value="Delete" class="btn-delete btn">
+  </form>
+</div>
+
+<form action="/editRecipe/<%= data._id %>?_method=PUT" method="POST">
+  <label for="title"><b>Title</b></label>
+  <input type="text" placeholder="Recipe Title" name="title" value="<%= data.title %>" required>
+
+  <label for="description"><b>Description</b></label>
+  <textarea name="description" cols="50" rows="3" placeholder="Recipe Description"><%= data.description %></textarea>
+
+  <label for="ingredients"><b>Ingredients</b></label>
+  <textarea name="ingredients" cols="50" rows="3" placeholder="Enter ingredients separated by commas"><%= data.ingredients.join(', ') %></textarea>
+
+  <label for="steps"><b>Steps</b></label>
+  <textarea name="steps" cols="50" rows="5" placeholder="Enter steps separated by commas"><%= data.steps.join(', ') %></textarea>
+
+  <input type="submit" value="Update" class="btn">
+</form>
+

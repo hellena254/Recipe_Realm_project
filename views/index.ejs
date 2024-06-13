@@ -1,0 +1,43 @@
+<div class="author">
+  <h1 class="author__heading">Hello, and welcome to Reciperealm.</h1>
+  <p class="author__body">Where all delicious food recipes.</p>
+</div>
+
+<img src="/images/food-2048x1366.jpg" alt="nice looking food" class="hero-image" width="981" height="528">
+
+<h2 class="author__heading">Features.</h2>
+<section class="features">
+  <div class="feature">
+    <img src="/images/img1.jpg" alt="Feature 1" class="feature-image">
+    <p class="feature-description">Explore our extensive collection of recipes, categorized for easy browsing.</p>
+  </div>
+  <div class="feature">
+    <img src="/images/img2.jpg" alt="Feature 2" class="feature-image">
+    <p class="feature-description">Join our community and share your own recipes with food enthusiasts worldwide.</p>
+  </div>
+  <div class="feature">
+    <img src="/images/img3.jpg" alt="Feature 3" class="feature-image">
+    <p class="feature-description">Get personalized recipe recommendations based on your preferences.</p>
+  </div>
+</section>
+
+
+<section class="articles">
+  <h2 class="articles__heading">Popular Recipes</h2>
+
+  <ul class="article-ul">
+    <% data.forEach(recipe => { %>
+      <li>
+        <a href="/recipe/<%= recipe._id %>">
+          <span><%= recipe.title %></span>
+          <span class="article-list__date"><%= recipe.createdAt.toDateString() %></span>
+        </a>
+      </li>
+    <% }) %>
+  </ul>
+
+  <% if (nextPage !== null) { %>
+    <a href="/?page=<%= nextPage %>" class="pagination">&lt; View Older Posts</a>
+<% } %>
+  </section>
+

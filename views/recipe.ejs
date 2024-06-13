@@ -1,0 +1,18 @@
+<h1><%= data.title %></h1>
+<% if (data.image) { %>
+  <img src="<%= data.image %>" alt="<%= data.title %>" class="recipe-image">
+<% } %>
+<article class="article"><%= data.description %></article>
+<h3>Ingredients</h3>
+<ul>
+  <% data.ingredients.forEach(ingredient => { %>
+    <li><%= ingredient %></li>
+  <% }) %>
+</ul>
+<h3>Steps</h3>
+<ol>
+  <% data.steps.forEach(step => { %>
+    <li><%= step %></li>
+  <% }) %>
+</ol>
+
