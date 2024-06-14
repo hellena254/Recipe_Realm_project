@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(methodOverride('_method'));
 
 app.use(session({
-  secret: 'keyboard cat',
+  secret: process.env.JW_SECRET,
   resave: false,
   saveUninitialized: true,
   store: MongoStore.create({
