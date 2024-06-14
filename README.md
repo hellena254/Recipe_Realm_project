@@ -17,7 +17,6 @@ Welcome to Recipe Realm, a platform dedicated to food enthusiasts who love to di
 - [Core Features](#core-features)
 - [Challenges and Solutions](#challenges-and-solutions)
 - [Future Enhancements](#future-enhancements)
-- [Technical Deep Dive](#technical-deep-dive)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -92,7 +91,7 @@ To get a local copy of Recipe Realm up and running, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/hellena254/recipe-realm.git
+   git clone https://github.com/hellena254/Recipe_Realm_project
    cd recipe-realm
    ```
 
@@ -101,82 +100,38 @@ To get a local copy of Recipe Realm up and running, follow these steps:
    npm install
    ```
 
-3. **Set up environment variables:**
-   Create a `.env` file in the root directory and add the following:
-   ```
-   MONGO_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret
-   ```
-
-4. **Start the server:**
+3. **Start the server:**
    ```bash
-   npm start
-   ```
-
-5. **Navigate to the client directory and start the React app:**
-   ```bash
-   cd client
-   npm install
    npm start
    ```
 
 6. **Visit the application:**
-   Open your browser and navigate to `http://localhost:3000`.
+   Open your browser and navigate to `http://localhost:5500`.
 
 ## Usage
 
 Once the application is up and running, you can:
 
 - **Explore Recipes:** Browse through a variety of popular recipes on the home page.
-- **Search Recipes:** Use the search functionality to find recipes based on ingredients, cuisine, or dietary preferences.
 - **Submit Your Recipe:** Share your favorite recipes with the community by filling out the submission form.
 - **View Recipe Details:** Click on any recipe card to view detailed instructions, ingredients, and nutritional information.
 
-![Screenshot of Recipe Realm](link-to-screenshot)
 
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to Recipe Realm, please follow these steps:
 
-1. **Fork the repository:**
-   Click the "Fork" button at the top right of this page.
-
-2. **Clone your fork:**
-   ```bash
-   git clone https://github.com/your-username/recipe-realm.git
-   cd recipe-realm
-   ```
-
-3. **Create a new branch:**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-4. **Make your changes and commit:**
-   ```bash
-   git commit -m "Add your commit message"
-   ```
-
-5. **Push to your fork:**
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-6. **Submit a pull request:**
-   Go to the original repository and click "New Pull Request."
 
 ## Related Projects
 
 Check out these related projects that inspired Recipe Realm:
 
-- [Tasty](https://github.com/username/tasty)
-- [Epicurious](https://github.com/username/epicurious)
-- [Food Network](https://github.com/username/food-network)
+- [Tasty](https://tasty.co/)
+- [Epicurious](https://www.epicurious.com/)
+- [Food Network](https://www.foodnetwork.com/)
 
 ## Licensing
 
 Recipe Realm is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
----
 
-By sharing this comprehensive overview of the Recipe Realm project, I hope to convey not only the technical aspects but also the passion and dedication behind its creation. This README aims to provide clear instructions for setup, usage, and contributions while highlighting the project's inspiration, challenges, and future directions.
