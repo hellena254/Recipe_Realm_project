@@ -2,15 +2,8 @@
 
 ![Recipe Realm Banner](https://www.canva.com/design/DAGGI1rxojo/view) 
 
-## Introduction
-
-Welcome to Recipe Realm, a platform dedicated to food enthusiasts who love to discover, share, and create delicious recipes from around the world. Whether you're a seasoned chef or an amateur cook, Recipe Realm offers a diverse collection of recipes to explore.
-
-- **Final Project Blog Article:** [Read the Blog](https://medium.com/@atienohellen125/exploring-recipe-realm-building-a-culinary-adventure-with-express-js-mongodb-and-react-0c0776e20346)
-- **Author LinkedIn:** [Hellena](https://www.linkedin.com/in/hellen-atieno-0635b1190/)
 
 ## Table of Contents
-
 - [Introduction](#introduction)
 - [Inspiration and Purpose](#inspiration-and-purpose)
 - [Architecture and Technology](#architecture-and-technology)
@@ -23,6 +16,15 @@ Welcome to Recipe Realm, a platform dedicated to food enthusiasts who love to di
 - [Related Projects](#related-projects)
 - [Licensing](#licensing)
 
+
+## Introduction
+
+Welcome to Recipe Realm, a platform dedicated to food enthusiasts who love to discover, share, and create delicious recipes from around the world. Whether you're a seasoned chef or an amateur cook, Recipe Realm offers a diverse collection of recipes to explore.
+
+- **Final Project Blog Article:** [Read the Blog](https://medium.com/@atienohellen125/exploring-recipe-realm-building-a-culinary-adventure-with-express-js-mongodb-and-react-0c0776e20346)
+- **Author LinkedIn:** [Hellena](https://www.linkedin.com/in/hellen-atieno-0635b1190/)
+
+  
 ## Inspiration and Purpose
 
 The inspiration for Recipe Realm came from my lifelong passion for cooking and sharing culinary experiences. Growing up, I spent countless hours in the kitchen experimenting with recipes and flavors. This project was born out of a desire to create a platform where food enthusiasts like myself could easily discover new recipes, share their own creations, and connect with a community that shares the same passion.
