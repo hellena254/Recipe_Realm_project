@@ -35,7 +35,7 @@ Recipe Realm is built using a modern tech stack designed to ensure scalability, 
 
 ### Technologies Used
 
-- **Frontend:** React.js, HTML5, CSS3
+- **Frontend:** EJS, HTML5, CSS3
 - **Backend:** Express.js, Node.js
 - **Database:** MongoDB
 - **Authentication:** JSON Web Tokens (JWT)
